@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		/*Course course1 = new Course(1, "Java + React", "Engin Demirog");//Yanlýþ kullaným
+		/*Course course1 = new Course(1, "Java + React", "Engin Demirog");//Yanlis kullanim
 		Course course2 = new Course(2, "JavaScript", "Engin Demirog");*/
 		
 		Course course1 = new Course();
