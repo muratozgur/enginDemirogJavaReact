@@ -15,10 +15,10 @@ public class Main {
 		gamerManager.add(gamer1);
 		
 		Campaign campaign1 = new Campaign(1, "Askeri Personel", 18);
-		Campaign campaign2 = new Campaign(2, "Emniyet Teskilati Mensubu", 18);
+		//Campaign campaign2 = new Campaign(2, "Emniyet Teskilati Mensubu", 18);
 		
 		CampaignManager campaignManager = new CampaignManager();
-		campaignManager.update(campaign2);
+	//	campaignManager.update(campaign2);
 		campaignManager.add(campaign1);
 		
 		BaseSellManager sellManager = new SellManager();

@@ -16,7 +16,7 @@ public class GamerManager extends BaseGamerManager{
 	@Override
 	public void add(Gamer gamer) {
 		if(gamerCheckService.checkIfRealPerson(gamer)) {
-			System.out.println("Validation is success");
+			System.out.println("E-Government validation is success");
 			super.add(gamer);
 		}	
 		else {
